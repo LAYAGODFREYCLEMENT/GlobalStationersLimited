@@ -19,6 +19,10 @@
     rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -78,7 +82,7 @@
             We are a company of professional business men and suppliers for growing your business
           </h1>
           <p data-aos="fade-up" data-aos-delay="500" class="mt-4"  >
-            We offer these
+            We offer
           </p>
           <ul data-aos="left" data-aos-delay="600">
             <li data-aos="fade-up">Fast Designs</li>
@@ -118,7 +122,7 @@
                 government Organizations and registered with PDA.
                 <br /> We are also registered by the United Nations under United Nations global market.
                 <br />
-                <b>We are located on Plot 1-3 on Naser Road 2nd Floor Room-E04</b>
+                <b>We are located on Plot 1-3 on Nkurumah Road Freedom House 1st Floor Room L-652</b>
               </p>
               <div class="text-center text-lg-start">
                 <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align- self-center">
@@ -240,123 +244,43 @@
           <h2>Equipments</h2>
           <p>Facilities / Equipments</p>
         </header>
-        <div class="clients-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide">
-              <div class="w3-hover-shadow w3-round-large w3-round-larges m-2 w3-center" style="width:150px;height:150px;">
-                <img src="assets/img/products/award1.png" style="width:120px;height:120px;" class="img-fluid" alt="" />
-              </div>
+       
+        <!-- slider images -->
+        <div id="demo" class="carousel slide" data-ride="carousel" style="width:700px">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/equipments/11.jpg" alt="Los Angeles" width="1100" height="500">
+              <div class="carousel-caption">
+                <h3>Los Angeles</h3>
+                <p>We had such a great time in LA!</p>
+              </div>   
             </div>
-            <div class="swiper-slide">
-              <div class="w3-hover-shadow w3-round-large m-2 w3-center" style="width:150px;height:150px;">
-                <img src="assets/img/products/ward2.png" style="width:120px;height:120px;" class="img-fluid" alt="" />
-              </div>
+            <div class="carousel-item">
+              <img src="assets/img/equipments/plotter.png" alt="Chicago" width="1100" height="500">
+              <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+              </div>   
             </div>
-            <div class="swiper-slide">
-              <div class="w3-hover-shadow w3-round-large m-2 w3-center" style="width:150px;height:150px;">
-                <img src="assets/img/products/ward3.png" style="width:120px;height:120px;" class="img-fluid" alt="" />
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="w3-hover-shadow w3-round-large m-2 w3-center" style="width:150px;height:150px;">
-                <img src="assets/img/services/t-shirit.png" style="width:120px;height:120px;" class="img-fluid" alt="" />
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="w3-hover-shadow w3-round-large m-2 w3-center" style="width:150px;height:150px;">
-                <img src="assets/img/products/azam.png" style="width:120px;height:120px;" class="img-fluid" alt="" />
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" />
-            </div>
-            <div class="swiper-slide">
-              <img src="assets/img/clients/client-3.png" class="img-fluid" alt="" />
-            </div>
-            <div class="swiper-slide">
-              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="" />
-            </div>
-            <div class="swiper-slide">
-              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="" />
-            </div>
-            <div class="swiper-slide">
-              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="" />
-            </div>
-            <div class="swiper-slide">
-              <img src="assets/img/clients/client-7.png" class="img-fluid" alt="" />
-            </div>
-            <div class="swiper-slide">
-              <img src="assets/img/clients/client-8.png" class="img-fluid" alt="" />
-            </div>
-            <div class="swiper-slide">
-              <img src="assets/img/clients/client-16.png" class="img-fluid" alt="" />
+            <div class="carousel-item">
+              <img src="assets/img/equipments/printer.jpeg" alt="New York" width="1100" height="500">
+              <div class="carousel-caption">
+                <h3>New York</h3>
+                <p>We love the Big Apple!</p>
+              </div>   
             </div>
           </div>
-         
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
-          <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-item m-2">
-                  <div class="w3-card-2 w3-hover-shadow w3-animate-zoom w3-round">
-                    <div class="thumbnail">
-                      <a href="assets/img/equipments/plotter.png" style="text-decoration:none;">
-                        <div class="" style="background-image:url('assets/img/equipments/plotter.png');background-size:cover;height:300px;">
-                        </div>                     
-                        <!-- <div class="caption w3-padding w3-white">
-                            <h3 style="color:rgb(29, 5, 114);">Plotters</h3>
-                        </div> -->
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial-item m-2">
-                  <div class="w3-card-2 w3-hover-shadow w3-animate-zoom">
-                    <div class="thumbnail">
-                      <a href="assets/img/equipments/printer.jpeg" style="text-decoration:none;">
-                          <div class="" style="background-image:url('assets/img/equipments/printer.jpeg');background-size:cover;height:300px;">
-                          </div>
-                      
-                      <!-- <div class="caption w3-padding">
-                          <p style="color:rgb(29, 5, 114);">High quality Printer</p>
-                      </div> -->
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial-item m-2">
-                  <div class="w3-card-2 w3-hover-shadow w3-animate-zoom">
-                    <div class="thumbnail">
-                      <a href="assets/img/equipments/plotter_printout.png" style="text-decoration:none;">
-                          <div class="" style="background-image:url('assets/img/equipments/plotter_printout.png');background-size:cover;height:300px;">
-                          </div>
-                      
-                      <!-- <div class="caption w3-padding">
-                          <p style="color:rgb(29, 5, 114);">Sample printOut</p>
-                      </div> -->
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial-item m-2">
-                  <div class="w3-card-2 w3-hover-shadow w3-animate-zoom">
-                    <div class="thumbnail">
-                      <a href="assets/img/equipments/11.jpg" style="text-decoration:none;">
-                          <div class="" style="background-image:url('assets/img/equipments/11.jpg');background-size:cover;height:300px;">
-                          </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
         </div>
 
         <!-- Feature Icons -->
@@ -495,7 +419,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-box green">
-              <img src="./assets/img/equipments/plotter_printout.png" alt="" style="width: 16rem; height: 10rem;  margin: 0.5rem;">
+              <img src="./assets/img/services/teardrops.jpg" alt="" style="width: 10rem; height: 10rem;  margin: 0.5rem;">
               <h3>Large Format | Banner Printing |Signage</h3>
               <p class="text-start">
                 We also design and print on Billboards, Pop up Banners, Stickers, Tear drops drops,Flags and Wall signs for customers.
@@ -550,6 +474,76 @@
               </a> -->
             </div>
           </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+            <div class="service-box pink">
+              <img src="./assets/img/services/tent.png" alt="" style=" width: 16rem; height: 10rem; margin: 0.5rem;">
+              <h3>Tent Branding</h3>
+              <p class="text-start">
+                We brand all forms of tents with the text and logos of your choice.
+              </p>
+              <!-- <a href="#" class="read-more">
+                <span>Read More</span>
+                <i class="bi bi-arrow-right"></i>
+              </a> -->
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+            <div class="service-box pink">
+              <img src="./assets/img/products/award1.png" alt="" style=" width: 13rem; height: 10rem; margin: 0.5rem;">
+              <h3>Gifts Branding</h3>
+              <p class="text-start">
+                We can put any sorts of label to gifts of your dear ones with a special message of your choice such as of wards , cups ,plates among others.
+              </p>
+              <!-- <a href="#" class="read-more">
+                <span>Read More</span>
+                <i class="bi bi-arrow-right"></i>
+              </a> -->
+            </div>
+          </div>
+        </div>
+
+        <header class="section-header" style="margin-top:100px;">
+          <h2>Our Supplies to Customers </h2>
+        </header>
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">           
+            <div class="swiper-slide">
+              <img src="assets/img/products/overall.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/products/sunseed.png" class="img-fluid" alt="" />
+            </div>
+            
+            <div class="swiper-slide">
+              <img src="assets/img/services/t-shirit.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/products/azam.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/products/glovesd.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/products/gumboot.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/products/hemlet.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/products/milk.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/products/shoe.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/products/sugar.png" class="img-fluid" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/products/posho.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+         
         </div>
       </div>
     </section>
@@ -1030,9 +1024,9 @@
                   <i class="bi bi-geo-alt"></i>
                   <h3>Address</h3>
                   <p>
-                    Plot 1-3 Naser Road,
-                    <br />2nd Floor, Room Room-E04
-                    <br />Printers Miracle Center Building
+                    Plot 1-3 Nkurumah Road,
+                    <br />1st Floor, Room L-652
+                    <br />Freedom House
                   </p>
                 </div>
               </div>
@@ -1053,7 +1047,7 @@
                   <h3>Email Us</h3>
                   <p>
                     globestationers2006@gmail.com
-                    <br />contact@example.com
+                    <br />
                   </p>
                   <p></p>
                 </div>
@@ -1222,15 +1216,21 @@
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
             <p>
-              Plot 1-3
-              <br /> Nasser Road, 2nd Floor,Room-04
+              Plot 1-3 
+              <br /> Nkurumah Road, Freedom House, 1st Floor Room L-652
+              <br /> P.O Box 73396 
               <br /> Kampala, Uganda
               <br />
               <br />
-              <strong>Phone:</strong> 0771-896869, 0701-896869
+              <strong>Phone:</strong><br>
+              0771-896869, 0701-896869
               <br />
-              <strong>Email:</strong>
-              globestationers2006@gmail.com
+              <div class="d-block">
+                <p>
+                  <strong>Email:</strong>
+                  globestationers2006@gmail.com
+                </p>
+              </div>
               <br />
             </p>
           </div>
@@ -1265,6 +1265,8 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 
   <!--  Main JS File -->
   <script src="assets/js/main.js"></script>
