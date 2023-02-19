@@ -1077,13 +1077,14 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="#" method="post" class="php-email-form">
+            <form action="https://www.globestationers.com/api/quotations.php" method="post" class="php-email-form">
               <div class="row gy-4">
                 <div class="w3-center">
-                  <h2>Send Quotation</h2>
+                  <h2 style="font-weight:bold;color:blue">Send Quotation</h2>
                 </div>
+                <i id="demo"></i>
                 <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Comany Name" required />
+                  <input type="text" name="company_name" class="form-control" placeholder="Comany Name" required />
                 </div>
 
                 <div class="col-md-6">
@@ -1091,21 +1092,21 @@
                 </div>
 
                 <div class="col-md-12">
+                  <input type="number" class="form-control" name="contact" placeholder="Phone number" required />
+                </div>
+
+                <div class="col-md-12">
                   <input type="text" class="form-control" name="subject" placeholder="Subject" required />
                 </div>
 
                 <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                  <label for="">Quotation description</label>
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required>
+                  </textarea>
                 </div>
 
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-
-                  <button type="submit">
+                <div class="col-md-12 text-center">                 
+                  <button type="submit" onclick="submit">
                     Send Message
                   </button>
                 </div>
@@ -1284,6 +1285,25 @@
 
   <!--  Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    function submit(){
+      // alert('quotation submitted');
+    //   let data = document.getElementById('php-email-form');
+    //   let formdata = new FormData(data);
+    //   var xhttp = new XMLHttpRequest();
+    //   xhttp.onreadystatechange = function() {
+    //   if (this.readyState == 4 && this.status == 200) {
+    //     document.getElementById("demo").innerHTML = this.responseText;
+    //   }
+    //  };
+    //   xhttp.open("POST", "http://localhost/globe/api/quotations.php", true);
+    //   xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    //   xhttp.send(formdata);
+
+    }
+
+  </script>
 </body>
 
 </html>
